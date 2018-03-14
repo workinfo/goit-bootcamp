@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+.list-item {
+    float: left;
+    margin-right:25px}
+
+.list{
+    list-style: none;
+    background-color: aqua;
+    width: 600px;
+    margin: auto;
+}

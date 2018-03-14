@@ -1,0 +1,11 @@
+.list-item{
+    color: #0E1116;
+}
+.list-item:nth-child(3n+1){
+background-color: #88292F;
+}
+.list-item:nth-child(3n+2){
+    background-color: #5DB7DE;
+}
+.list-item:nth-child(3n+3){
+    background-color: #0D5D56;

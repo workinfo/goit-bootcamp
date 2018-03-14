@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    text-align: left;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+}
+
+.list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+li::before {
+    margin-right: 10px;
+    content: "\2192";
+}
+
+.list li:hover a {
+    color: #1203ff;
+}
+
+.list li:hover::before,
+.list li:hover {
+    color: #1203ff;
+}
